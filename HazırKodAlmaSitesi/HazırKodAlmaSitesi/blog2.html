@@ -1,0 +1,3541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='impact-site-verification' value='6988d1a9-1104-432f-bb55-ac75eca2a2cb'>
+    <meta name="description" content="SnipNest - Share, explore and improve your HTML, CSS and JavaScript codes! The ideal platform for free snippets, project ideas and collaboration. Join Now!">
+    <link rel="icon" type="image/png" href="logo.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2018400078654574"
+     crossorigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11512621738"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11512621738');
+</script>
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11512621738/r2tVCLyk5_oZEKrV0vEq',
+      'value': 1.0,
+      'currency': 'TRY'
+  });
+</script>
+  <title>SnipNest - Blog</title>
+</head>
+<body>
+  <div class="tamekran"><style>
+  .mobile-message {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      z-index: 10000000000;
+      padding: 20px;
+      box-sizing: border-box;
+  }
+  
+  .mobile-logo {
+      font-size: 4rem;
+      color: #ff4d4d;
+      margin-bottom: 20px;
+  }
+  
+  .mobile-title {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: white;
+  }
+  
+  .mobile-text {
+      font-size: 1rem;
+      color: #aaa;
+      max-width: 300px;
+      line-height: 1.5;
+  }
+  
+  @media only screen and (max-width: 1100px) {
+      .main-content {
+          display: none !important; /* Kesinlikle gizle */
+      }
+      
+      .mobile-message {
+          display: flex;
+      }
+      
+      body, html {
+          overflow: hidden; /* Mobilde kaydırmayı engelle */
+      }
+  }
+</style>
+  </head>
+  <body>
+  
+      <!-- Mobile coming soon message (shown only on phones) -->
+      <div class="mobile-message">
+          <i class='bx bx-mobile-alt mobile-logo'></i>
+          <h2 class="mobile-title">Very Soon!</h2>
+          <p class="mobile-text">This Website is not yet Available For Mobile Devices And Small Screen. Please Visit From a Desktop Computer.</p>
+      </div>
+    <!-- İçerik buraya gelecek -->
+
+    <nav style="height: 82px;background-color: #111;" class="navbar">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <!-- SnipNest Logo -->
+      <a href="menu.html">
+        <img width="100px" height="auto" style="margin-top: 10px;" src="Screenshot 2025-04-10 235808.png">
+      </a>
+      <a style="text-decoration: none;color: inherit;color: white;font-size: 15px;" href="menu.html"><i class='bx bx-arrow-back'></i> Back To Menu</a>
+        </head>
+        <body>
+        <script>
+        function toggleNotificationBox() {
+          const notificationBox = document.getElementById('notificationBox');
+          notificationBox.classList.toggle('open');
+        }
+        </script>
+      </div>
+    </nav>
+    
+    <style>
+      .notification-container {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        margin-top: 11px;
+        border-radius: 10px;
+        display: flex;
+        z-index: 99999;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .notification-container:hover {
+        background-color: #555;
+        transform: scale(1.1);
+    }
+
+    /* Notification icon */
+    .notification-icon {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    /* Notification box */
+    .notification-box {
+        z-index: 999;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 300px;
+        height: 350px;
+        background-color: #444;
+        border: 2px #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        transform: scale(0);
+        transform-origin: top right;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        opacity: 0;
+    }
+
+    .notification-box.open {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    /* Notification content */
+    .notification-content {
+        padding: 20px;
+        text-align: left;
+    }
+
+    .notification-content h3 {
+        margin: 0 0 15px 0;
+        font-size: 14px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    .notification-content h3 i {
+        margin-right: 10px;
+    }
+
+    .notification-content p {
+        margin: 0;
+        font-size: 12px;
+        color: #ccc;
+        animation: slideIn 0.3s ease-in-out;
+    }
+
+    /* Animation for notification content */
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Add a subtle border to the notification box */
+    .notification-box {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Add a hover effect to the notification box */
+    .notification-box:hover {
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    }
+    .profile-container {
+position: relative;
+display: inline-block;
+}
+
+.profile-btn {
+display: flex;
+align-items: center;
+background: none;
+border: none;
+padding: 19px 2px;
+cursor: pointer;
+font-size: 16px;
+color: #fff;
+}
+
+.profile-btn i {
+font-size: 24px;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+right: 0;
+background-color: #222;
+min-width: 230px;
+box-shadow: 0px 0px 3px #888;
+z-index: 1;
+border-radius: 4px;
+overflow: hidden;
+}
+
+.dropdown-content a {
+display: flex;
+align-items: center;
+padding: 12px 16px;
+text-decoration: none;
+color: #ffffff;
+font-size: 14px;
+}
+
+.dropdown-content a i {
+margin-right: 8px;
+}
+
+.dropdown-content a:hover {
+background-color: #333;
+}
+
+.profile-container:hover .dropdown-content {
+display: block;
+}
+      /* Dropdown Styling */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-left: 20px;
+      }
+    
+      .dropbtn {
+        background-color: transparent;
+        color: white;
+        padding: 8px 20px; /* Yazı boyutu küçültüldü */
+        font-size: 14px; /* Yazı boyutu küçültüldü */
+        height: 39px;
+        border: none;
+        background-color: #222;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+  
+      .dropdown-contentt {
+        display: none;
+        position: absolute;
+        min-width: 800px; /* Grid için genişlik */
+        z-index: 1;
+        border-radius: 8px;
+        overflow: hidden;
+        padding: 10px; /* Grid içeriği için padding */
+      }
+    
+      .grid-container {
+        display: grid;
+        width: 300px;
+        grid-template-columns: repeat(2, 1fr); /* 4x4 grid yapısı */
+        gap: 3px; /* Kutular arası boşluk */
+      }
+    
+      .grid-container a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        background-color: #222;
+        border-radius: 5px;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+      }
+    
+      .grid-container a:hover {
+        background-color: #333;
+        box-shadow:0px 8px 16px #444;
+        transform: scale(1.05);
+      }
+    
+      .grid-container a i {
+        margin-right: 8px;
+        margin-top: 3.5px;
+      }
+    
+      .dropdown:hover .dropdown-contentt {
+        display: block;
+      }
+    
+      /* Terms of Use Link */
+      .terms-link {
+        color: white;
+        padding: 9px;
+        border-radius: 10px;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 14px; /* Yazı boyutu küçültüldü */
+            height: 38px;
+    transition: all 0.3s ease-in-out;
+      }
+    
+      .terms-link:hover {
+        color: #ccc;
+        background-color: #444;
+      }
+    
+      /* Right Buttons Styling */
+      .right-buttons {
+        display: flex;
+        gap: 15px;
+        margin-left: auto; /* Sağa yasla */
+        margin-right: 20px; /* Sağdan boşluk bırak */
+      }
+    
+      .people-button {
+    display: inline-block;
+    margin: 2px;
+    padding: 12px 20px;
+    font-size: 14px;
+    margin-top: 7px;
+    color: #fff;
+    height: 45px;
+    background-color: rgb(0, 234, 12);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+    .people-button:hover {
+        background-color: rgb(0, 225, 11);
+        box-shadow:0px 5px 90px rgb(0, 255, 0);
+    }
+
+    .people-button:active {
+        transform: scale(0.95);
+    }
+
+    .people-button i {
+        margin-right: 8px;
+        color: #fff;
+    }
+
+    /* İkonlar için ek stil */
+    .people-button .fa-user-plus,
+    .people-button .fa-sign-in-alt {
+        filter: grayscale(100%);
+    }
+      /* Navbar Styling */
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #222;
+        padding: 10px 20px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+      }
+    
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .navbar {
+          flex-wrap: wrap;
+          padding: 10px;
+        }
+    
+        .dropdown {
+          margin-left: 10px;
+        }
+    
+        .terms-link {
+          margin-left: 10px;
+        }
+    
+        .right-buttons {
+          margin-left: 0;
+          margin-right: 10px;
+        }
+    
+        .people-button {
+          padding: 6px 12px;
+          font-size: 12px;
+        }
+    
+        .dropdown-contentt {
+          min-width: 250px; /* Mobilde grid genişliği */
+        }
+    
+        .grid-container {
+          grid-template-columns: repeat(2, 1fr); /* Mobilde 2x4 grid yapısı */
+        }
+      }
+    </style>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  
+  <script>
+  let sidebar = document.querySelector(".sidebar");
+  let closeBtn = document.querySelector("#btn");
+  let searchBtn = document.querySelector(".bx-search");
+  closeBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("open");
+    menuBtnChange();//calling the function(optional)
+  });
+  searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+    sidebar.classList.toggle("open");
+    menuBtnChange(); //calling the function(optional)
+  });
+  // following are the code to change sidebar button(optional)
+  function menuBtnChange() {
+   if(sidebar.classList.contains("open")){
+     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+   }else {
+     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+   }
+  }
+  </script>
+   <style>
+    /* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    background-color:#111 ;
+    overflow-x: hidden;
+}
+/* Genel scroll stili */
+::-webkit-scrollbar {
+    width: 17px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+.sidebar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 78px;
+  background: #111;
+  padding: 6px 14px;
+  z-index: 999999;
+  transition: all 0.5s ease;
+}
+.sidebar.open{
+  width: 250px;
+}
+.sidebar .logo-details{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.sidebar .logo-details .icon{
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.sidebar .logo-details .logo_name {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0;
+  transition: all 0.5s ease;
+  background: linear-gradient(to right, #ff0000,#c30f0f,#b10f0f,#ad1111 50%, #ffffff 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 1px 2px rgba(129, 129, 129, 0.132);
+  position: relative;
+}
+
+.sidebar .logo-details .logo_name::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+.sidebar.open .logo-details .icon,
+.sidebar.open .logo-details .logo_name{
+  opacity: 1;
+}
+.sidebar .logo-details #btn{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: all 0.4s ease;
+  font-size: 23px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.sidebar.open .logo-details #btn{
+  text-align: right;
+}
+.sidebar i{
+  color: #fff;
+  height: 60px;
+  min-width: 50px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+}
+.sidebar .nav-list{
+  margin-top: 20px;
+  height: 100%;
+}
+.sidebar li{
+  position: relative;
+  margin: 8px 0;
+  list-style: none;
+}
+.sidebar li .tooltip{
+  position: absolute;
+  top: -20px;
+  left: calc(100% + 15px);
+  z-index: 3;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: 0s;
+}
+.sidebar li:hover .tooltip{
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 0.4s ease;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sidebar.open li .tooltip{
+  display: none;
+}
+.sidebar input{
+  font-size: 15px;
+  color: #FFF;
+  font-weight: 400;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  width: 50px;
+  border: none;
+  border-radius: 12px;
+  transition: all 0.5s ease;
+  background: #111;
+}
+.sidebar.open input{
+  padding: 0 20px 0 50px;
+  width: 100%;
+}
+.sidebar .bx-search{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 22px;
+  background: #111;
+  color: #FFF;
+}
+.sidebar.open .bx-search:hover{
+  background: #111;
+  color: #FFF;
+}
+.sidebar .bx-search:hover{
+  background: #FFF;
+  color: #111;
+}
+.sidebar li a{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  background: #111;
+}
+.sidebar li a:hover{
+  background: #FFF;
+}
+.sidebar li a .links_name{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s;
+}
+.sidebar.open li a .links_name{
+  opacity: 1;
+  pointer-events: auto;
+}
+.sidebar li a:hover .links_name,
+.sidebar li a:hover i{
+  transition: all 0.5s ease;
+  color: #111;
+}
+.sidebar li i{
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+.sidebar li.profile{
+  position: fixed;
+  height: 60px;
+  width: 78px;
+  left: 0;
+  bottom: -8px;
+  padding: 10px 14px;
+  background: #111;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+.sidebar.open li.profile{
+  width: 250px;
+}
+.sidebar li .profile-details{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.sidebar li img{
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+.sidebar li.profile .name,
+.sidebar li.profile .job{
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  white-space: nowrap;
+}
+.sidebar li.profile .job{
+  font-size: 12px;
+}
+.sidebar .profile #log_out{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: #111;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 0px;
+  transition: all 0.5s ease;
+}
+.sidebar.open .profile #log_out{
+  width: 50px;
+  background: none;
+}
+.home-section{
+  position: relative;
+  background: #E4E9F7;
+  min-height: 100vh;
+  top: 0;
+  left: 78px;
+  width: calc(100% - 78px);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+.sidebar.open ~ .home-section{
+  left: 250px;
+  width: calc(100% - 250px);
+}
+.home-section .text{
+  display: inline-block;
+  color: #111;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 18px
+}
+@media (max-width: 420px) {
+  .sidebar li .tooltip{
+    display: none;
+  }
+}
+  </style>
+<style>
+  .about-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 100%;
+      background: #111;
+      color: white;
+      padding: 40px 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      box-sizing: border-box;
+  }
+
+  .about-inner {
+      max-width: 800px;
+      width: 100%;
+  }
+
+  .header-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 20px;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .logo {
+      font-size: 3rem;
+      color: #ff4d4d;
+  }
+
+  .about-header {
+      font-size: 2.2rem;
+      margin: 0;
+      text-align: center;
+      color: white;
+      position: relative;
+      padding-bottom: 15px;
+  }
+
+  .about-header:after {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 3px;
+      background: linear-gradient(90deg, #ff4d4d, #f9cb28);
+      margin: 10px auto 0;
+      border-radius: 3px;
+  }
+
+  .about-content {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      text-align: left;
+  }
+
+  .about-content p {
+      margin-bottom: 12px;
+  }
+
+  .about-content strong {
+      color: #ff4d4d;
+      font-weight: 600;
+  }
+
+  .signature {
+      font-style: italic;
+      margin: 15px 0;
+      text-align: right;
+      color: #ccc;
+  }
+
+  .section-title {
+      font-size: 1.3rem;
+      margin: 25px 0 10px;
+      color: white;
+      text-align: left;
+      border-bottom: 1px solid #333;
+      padding-bottom: 5px;
+  }
+
+  .links-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 15px 0;
+  }
+
+  .links-list li {
+      margin: 8px 0;
+  }
+
+  .links-list a {
+      color: #ff8888;
+      text-decoration: none;
+      transition: color 0.2s;
+  }
+
+  .links-list a:hover {
+      color: white;
+      text-decoration: underline;
+  }
+
+  .contact-info {
+      margin-top: 25px;
+  }
+
+  .contact-info ul {
+      list-style-type: none;
+      padding: 0;
+  }
+
+  .contact-info li {
+      margin: 8px 0;
+  }
+
+  .email-link {
+      color: #ff8888;
+      text-decoration: none;
+  }
+
+  .email-link:hover {
+      text-decoration: underline;
+  }
+
+  .copyright {
+      margin-top: 30px;
+      font-size: 0.85rem;
+      color: #999;
+      text-align: center;
+  }
+
+  @media (max-width: 768px) {
+      .about-container {
+          padding: 30px 15px;
+      }
+      
+      .about-header {
+          font-size: 1.8rem;
+      }
+      
+      .section-title {
+          font-size: 1.2rem;
+      }
+  }
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
+
+<body>
+  <div class="about-container">
+    <div class="about-inner">
+      <div class="header-wrapper">
+        <i class='bx bxl-blogger logo'></i>
+        <h1 class="about-header">SnipNest Blog</h1>
+      </div>
+    <style>
+        :root {
+            --primary: #3a86ff;
+            --secondary: #8338ec;
+            --dark: #212529;
+            --light: #f8f9fa;
+            --gray: #6c757d;
+            --success: #28a745;
+            --danger: #dc3545;
+            --warning: #ffc107;
+            --info: #17a2b8;
+        }
+        .container {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+        
+        header::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            margin: 1rem auto;
+            border-radius: 2px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: white;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: var(--gray);
+            font-size: 1.1rem;
+        }
+        
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .blog-card {
+            background: #111;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card-image {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+        }
+        
+        .card-content {
+            padding: 1.5rem;
+        }
+        
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            align-items: center;
+        }
+        
+        .card-category {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .card-date-views {
+            display: flex;
+            gap: 0.5rem;
+            color: var(--gray);
+            font-size: 0.8rem;
+        }
+        
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+        }
+        
+        .card-excerpt {
+            color: var(--gray);
+            margin-bottom: 1.25rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .card-author {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .author-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        .author-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            overflow-y: auto;
+            padding: 2rem;
+        }
+        
+        .modal-content {
+            background: #111;
+            max-width: 900px;
+            margin: 2rem auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            animation: modalFadeIn 0.3s ease;
+        }
+        
+        @keyframes modalFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .modal-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        
+        .modal-body {
+            padding: 2.5rem;
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+            align-items: center;
+        }
+        
+        .modal-category {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .modal-date-views {
+            display: flex;
+            gap: 1rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        .modal-title {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            line-height: 1.3;
+        }
+        
+        .modal-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .modal-author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        .modal-author-info {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .modal-author-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+        
+        .modal-author-title {
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        .modal-text {
+            color: white;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+        
+        .modal-text p {
+            margin-bottom: 1.5rem;
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s ease;
+        }
+        
+        .modal-close:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .tag-container {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+        
+        .tag {
+            background-color: #e9ecef;
+            color: var(--dark);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+        
+        .sponsored {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background-color: var(--warning);
+            color: var(--dark);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .modal-body {
+                padding: 1.5rem;
+            }
+            
+            .modal-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>EXPERT DEVELOPER</h1>
+            <p class="subtitle">Insights, tutorials and cutting-edge techniques for modern developers</p>
+        </header>
+        
+        <div class="blog-grid">
+            <!-- Article 1 -->
+            <div class="blog-card" onclick="openModal('modal1')">
+                <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Web Development" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #3a86ff, #8338ec);">Web Development</span>
+                        <div class="card-date-views">
+                            <span>Apr 22</span>
+                            <span>•</span>
+                            <span>140 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">How to Think Like an Expert Developer</h3>
+                    <p class="card-excerpt">Hey, developers! I've been pushing code in web development for a while now, and let me tell you, there's an enormous difference between a developer who simply writes code and one who thinks architecturally...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rehan Phijari" class="author-avatar">
+                        <span class="author-name">Rehan Phijari</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Article 2 -->
+            <div class="blog-card" onclick="openModal('modal2')">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Coding" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #28a745, #20c997);">Coding</span>
+                        <div class="card-date-views">
+                            <span>Mar 24</span>
+                            <span>•</span>
+                            <span>527 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Cracking the Code of Vibe Coding</h3>
+                    <p class="card-excerpt">Vibe coding is real, and in this article, I'll explain it and break down how it's changing how we imagine, build and create software in a more intuitive, flow-state oriented way...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="UTUX" class="author-avatar">
+                        <span class="author-name">UTUX</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Article 3 -->
+            <div class="blog-card" onclick="openModal('modal3')">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Design" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #fd7e14, #ff6b6b);">Design</span>
+                        <div class="card-date-views">
+                            <span>Apr 6</span>
+                            <span>•</span>
+                            <span>375 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Mastering the Art of Visionary Design</h3>
+                    <p class="card-excerpt">Creating a vision is more than putting words on paper or developing a roadmap, it's an idealized view of the experience that users will have with the digital product or service...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Joe Smiley" class="author-avatar">
+                        <span class="author-name">Joe Smiley</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Article 4 -->
+            <div class="blog-card" onclick="openModal('modal4')">
+                <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Coding" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #6f42c1, #d63384);">Coding</span>
+                        <div class="card-date-views">
+                            <span>Mar 12</span>
+                            <span>•</span>
+                            <span>366 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">How Do I Start When Trying to Find Programming Errors</h3>
+                    <p class="card-excerpt">Let's face it - errors are really the soul of programming. In this guide, I'll walk you through my systematic approach to debugging that has saved me countless hours of frustration...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Sadi Kaya" class="author-avatar">
+                        <span class="author-name">Sadi Kaya</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Article 5 (Sponsored) -->
+            <div class="blog-card" onclick="openModal('modal5')">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Web Development" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #17a2b8, #20c997);">Web Development</span>
+                        <div class="card-date-views">
+                            <span>Mar 29</span>
+                            <span>•</span>
+                            <span>319 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Self-host Plausible Analytics</h3>
+                    <p class="card-excerpt">Plausible is an open-source analytics tool that provides insights into website traffic without compromising user privacy. While Plausible offers a hosted service, self-hosting gives you full control...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Plausible Team" class="author-avatar">
+                        <span class="author-name">Plausible Team</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Article 6 -->
+            <div class="blog-card" onclick="openModal('modal6')">
+                <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Design to Code" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #6610f2, #6f42c1);">Design to Code</span>
+                        <div class="card-date-views">
+                            <span>Mar 3</span>
+                            <span>•</span>
+                            <span>933 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Figma Design-to-Code Implementation</h3>
+                    <p class="card-excerpt">Figma has become a crucial tool for app design, making it easier than ever to translate visual concepts into functional code. Here are the best practices we've learned from implementing hundreds of designs...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="UTUX" class="author-avatar">
+                        <span class="author-name">UTUX</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Article 7 -->
+            <div class="blog-card" onclick="openModal('modal7')">
+                <img src="https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Web Development" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #fd7e14, #ff922b);">Web Development</span>
+                        <div class="card-date-views">
+                            <span>Apr 15</span>
+                            <span>•</span>
+                            <span>287 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Modern JavaScript Patterns You Should Know</h3>
+                    <p class="card-excerpt">JavaScript has evolved dramatically in recent years. In this article, I'll cover the modern patterns and techniques that every professional JavaScript developer should have in their toolkit...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Alex Chen" class="author-avatar">
+                        <span class="author-name">Alex Chen</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Article 8 -->
+            <div class="blog-card" onclick="openModal('modal8')">
+                <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="DevOps" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #343a40, #495057);">DevOps</span>
+                        <div class="card-date-views">
+                            <span>Apr 2</span>
+                            <span>•</span>
+                            <span>412 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">CI/CD Pipelines: From Zero to Hero</h3>
+                    <p class="card-excerpt">Continuous Integration and Continuous Deployment have become essential for modern development teams. This guide will walk you through setting up a robust pipeline from scratch...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Samira Khan" class="author-avatar">
+                        <span class="author-name">Samira Khan</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Article 9 -->
+            <div class="blog-card" onclick="openModal('modal9')">
+                <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Frontend" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #20c997, #12b886);">Frontend</span>
+                        <div class="card-date-views">
+                            <span>Mar 18</span>
+                            <span>•</span>
+                            <span>521 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">React 19: What's Coming and Why It Matters</h3>
+                    <p class="card-excerpt">The React team has been working on some groundbreaking changes for the next major version. Here's an in-depth look at the upcoming features and how they'll change the way we build React applications...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/men/88.jpg" alt="Diego Martinez" class="author-avatar">
+                        <span class="author-name">Diego Martinez</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openModal('modal10')">
+                <img src="https://images.unsplash.com/photo-1592609931095-54a2168ae893?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="AI" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #6a11cb, #2575fc);">AI</span>
+                        <div class="card-date-views">
+                            <span>May 5</span>
+                            <span>•</span>
+                            <span>842 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Building AI-Powered Apps with TensorFlow.js</h3>
+                    <p class="card-excerpt">TensorFlow.js brings machine learning to the browser and Node.js. Learn how to build and deploy ML models directly in JavaScript applications without backend infrastructure...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Lena Chen" class="author-avatar">
+                        <span class="author-name">Lena Chen</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openModal('modal11')">
+                <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Web3" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #f83600, #f9d423);">Web3</span>
+                        <div class="card-date-views">
+                            <span>May 12</span>
+                            <span>•</span>
+                            <span>721 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Smart Contract Development for Beginners</h3>
+                    <p class="card-excerpt">Entering the world of Web3 development can be daunting. This comprehensive guide breaks down smart contract development into manageable steps for absolute beginners...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Raj Patel" class="author-avatar">
+                        <span class="author-name">Raj Patel</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openModal('modal12')">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Accessibility" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #ff6b6b, #ff8e8e);">Accessibility</span>
+                        <div class="card-date-views">
+                            <span>May 8</span>
+                            <span>•</span>
+                            <span>615 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">The Complete Guide to Web Accessibility</h3>
+                    <p class="card-excerpt">Web accessibility isn't just a legal requirement - it's a moral obligation. Learn how to build websites that everyone can use, regardless of their abilities or assistive technologies...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Emma Johnson" class="author-avatar">
+                        <span class="author-name">Emma Johnson</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openModal('modal13')">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="TypeScript" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #3178c6, #5a9ce6);">TypeScript</span>
+                        <div class="card-date-views">
+                            <span>May 15</span>
+                            <span>•</span>
+                            <span>728 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Mastering TypeScript Generics</h3>
+                    <p class="card-excerpt">Generics are TypeScript's most powerful feature, yet many developers struggle with them. This deep dive will transform how you write reusable, type-safe code...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/men/42.jpg" alt="Andrei Ionescu" class="author-avatar">
+                        <span class="author-name">Andrei Ionescu</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openModal('modal14')">
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Go" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #00add8, #5fd7ff);">Go</span>
+                        <div class="card-date-views">
+                            <span>May 22</span>
+                            <span>•</span>
+                            <span>893 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Building Microservices with Go</h3>
+                    <p class="card-excerpt">Go's simplicity and performance make it ideal for microservices. This guide covers service decomposition, gRPC communication, and Kubernetes deployment patterns...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Sophie Zhang" class="author-avatar">
+                        <span class="author-name">Sophie Zhang</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openModal('modal15')">
+                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="CSS" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #2965f1, #2a9df4);">CSS</span>
+                        <div class="card-date-views">
+                            <span>May 29</span>
+                            <span>•</span>
+                            <span>1.2k views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">CSS Container Queries Revolution</h3>
+                    <p class="card-excerpt">Container queries are the most significant CSS advancement since Flexbox. Finally, components can adapt to their container's size rather than just the viewport...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/men/28.jpg" alt="Carlos Mendoza" class="author-avatar">
+                        <span class="author-name">Carlos Mendoza</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openModal('modal16')">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="PostgreSQL" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #336791, #4e82b8);">Database</span>
+                        <div class="card-date-views">
+                            <span>Jun 5</span>
+                            <span>•</span>
+                            <span>957 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">PostgreSQL Performance Tuning</h3>
+                    <p class="card-excerpt">PostgreSQL is powerful but requires proper tuning for optimal performance. Learn how to analyze query plans, create effective indexes, and configure your database for maximum throughput...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/women/38.jpg" alt="Natalie Wong" class="author-avatar">
+                        <span class="author-name">Natalie Wong</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openModal('modal17')">
+                <img src="https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="WebAssembly" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #654ff0, #8e6ffd);">WASM</span>
+                        <div class="card-date-views">
+                            <span>Jun 12</span>
+                            <span>•</span>
+                            <span>1.1k views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">The Future of WebAssembly</h3>
+                    <p class="card-excerpt">WebAssembly is revolutionizing web performance by enabling near-native speed in the browser. Discover how to compile Rust, C++, and Go to WASM for performance-critical tasks...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Dmitri Volkov" class="author-avatar">
+                        <span class="author-name">Dmitri Volkov</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openModal('modal18')">
+                <img src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Mobile Design" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #ff6b6b, #ff8e8e);">Design</span>
+                        <div class="card-date-views">
+                            <span>Jun 19</span>
+                            <span>•</span>
+                            <span>876 views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Mobile First Design in 2025</h3>
+                    <p class="card-excerpt">With mobile traffic dominating web usage, designing for small screens first is no longer optional. Discover the latest patterns and techniques for exceptional mobile experiences...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Lisa Park" class="author-avatar">
+                        <span class="author-name">Lisa Park</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openModal('modal19')">
+                <img src="https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="SaaS" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #6a11cb, #2575fc);">Business</span>
+                        <div class="card-date-views">
+                            <span>Jun 26</span>
+                            <span>•</span>
+                            <span>1.5k views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Building a SaaS from Scratch</h3>
+                    <p class="card-excerpt">Launching a successful SaaS requires both technical and business expertise. This comprehensive guide covers architecture decisions, pricing strategies, and growth tactics...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="Jason Miller" class="author-avatar">
+                        <span class="author-name">Jason Miller</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openModal('modal20')">
+                <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Quantum" class="card-image">
+                <div class="card-content">
+                    <div class="card-header">
+                        <span class="card-category" style="background: linear-gradient(to right, #0f2027, #203a43);">Quantum</span>
+                        <div class="card-date-views">
+                            <span>Jul 3</span>
+                            <span>•</span>
+                            <span>1.3k views</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Quantum Computing for Developers</h3>
+                    <p class="card-excerpt">Quantum computing will revolutionize problem-solving in our lifetime. Get started with Q# and learn how quantum algorithms differ from classical programming...</p>
+                    <div class="card-author">
+                        <img src="https://randomuser.me/api/portraits/women/60.jpg" alt="Dr. Priya Rao" class="author-avatar">
+                        <span class="author-name">Dr. Priya Rao</span>
+                    </div>
+                </div>
+            </div>                        
+        </div>
+    </div>
+    
+    <!-- Modal 1 -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal1')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=600&q=80" alt="Web Development" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #3a86ff, #8338ec);">Web Development</span>
+                    <div class="modal-date-views">
+                        <span>Apr 22, 2025</span>
+                        <span>•</span>
+                        <span>140 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">How to Think Like an Expert Developer</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rehan Phijari" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Rehan Phijari</span>
+                        <span class="modal-author-title">Senior Architect at TechCorp</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">Architecture</span>
+                    <span class="tag">Mindset</span>
+                    <span class="tag">Best Practices</span>
+                </div>
+                <div class="modal-text">
+                    <p>Hey developers! I've been pushing code in web development for over a decade now, and let me tell you, there's an enormous difference between a developer who simply writes code and one who thinks architecturally about systems.</p>
+                    
+                    <p>When I started my career, I focused on getting features to work. Now, I think about how those features will scale, how they'll interact with other systems, and how they'll need to evolve over time. This shift in perspective didn't happen overnight—it came from painful lessons learned through experience.</p>
+                    
+                    <h3>The Expert Mindset</h3>
+                    
+                    <p>Expert developers don't just solve the problem in front of them—they anticipate future problems. Here are some key differences in how experts think:</p>
+                    
+                    <ul>
+                        <li><strong>Systems Thinking:</strong> Seeing how components interact rather than focusing on isolated pieces</li>
+                        <li><strong>Tradeoff Awareness:</strong> Understanding that every technical decision has pros and cons</li>
+                        <li><strong>Future Orientation:</strong> Designing for maintainability and extensibility</li>
+                        <li><strong>Pattern Recognition:</strong> Spotting similarities to problems solved before</li>
+                    </ul>
+                    
+                    <p>One of my favorite techniques is the "Five Whys" approach. When faced with a problem, ask "why" five times to get to the root cause. This prevents treating symptoms instead of causes.</p>
+                    
+                    <h3>Practical Steps to Level Up</h3>
+                    
+                    <p>Here's how you can start developing this expert mindset:</p>
+                    
+                    <ol>
+                        <li>Read and analyze production code from large projects</li>
+                        <li>Participate in code reviews with a focus on architectural implications</li>
+                        <li>Build the same project multiple times with different architectures</li>
+                        <li>Learn about distributed systems even if you don't work with them</li>
+                        <li>Document your decisions and revisit them months later</li>
+                    </ol>
+                    
+                    <p>Remember, expertise isn't about knowing everything—it's about developing the judgment to make good decisions with incomplete information. What techniques have helped you think more like an expert? Share in the comments!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 2 -->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal2')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=600&q=80" alt="Coding" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #28a745, #20c997);">Coding</span>
+                    <div class="modal-date-views">
+                        <span>Mar 24, 2025</span>
+                        <span>•</span>
+                        <span>527 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">Cracking the Code of Vibe Coding</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="UTUX" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">UTUX</span>
+                        <span class="modal-author-title">Productivity Researcher</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">Productivity</span>
+                    <span class="tag">Flow State</span>
+                    <span class="tag">Psychology</span>
+                </div>
+                <div class="modal-text">
+                    <p>Vibe coding is real, and it's transforming how developers work. This isn't just about writing code—it's about entering a state where the code seems to write itself, where hours pass like minutes, and where solutions emerge almost intuitively.</p>
+                    
+                    <p>After interviewing dozens of top developers and analyzing their workflows, I've identified the key components of this state and how to achieve it consistently.</p>
+                    
+                    <h3>The Components of Vibe Coding</h3>
+                    
+                    <p>Vibe coding emerges at the intersection of several factors:</p>
+                    
+                    <ul>
+                        <li><strong>Environmental Design:</strong> Your physical and digital workspace setup</li>
+                        <li><strong>Mental Preparation:</strong> Rituals to enter the right headspace</li>
+                        <li><strong>Task Selection:</strong> Choosing work that matches your energy</li>
+                        <li><strong>Flow Triggers:</strong> Elements that help maintain focus</li>
+                    </ul>
+                    
+                    <p>One surprising finding: the developers who achieved flow most frequently weren't necessarily the most skilled technically—they were the ones who had mastered their environment and habits.</p>
+                    
+                    <h3>Creating Your Vibe Coding Setup</h3>
+                    
+                    <p>Here's a step-by-step guide to creating your optimal coding environment:</p>
+                    
+                    <ol>
+                        <li><strong>Lighting:</strong> Use warm, indirect lighting to reduce eye strain</li>
+                        <li><strong>Sound:</strong> Experiment with different soundscapes (nature sounds, brown noise, or complete silence)</li>
+                        <li><strong>Tooling:</strong> Customize your IDE with themes and shortcuts that feel intuitive</li>
+                        <li><strong>Distraction Control:</strong> Use apps to block notifications during focus sessions</li>
+                        <li><strong>Physical Comfort:</strong> Invest in ergonomic equipment that you forget you're using</li>
+                    </ol>
+                    
+                    <p>The key is to experiment and notice what works for you. Track your productive sessions—what were the common factors? Build from those observations.</p>
+                    
+                    <h3>Maintaining the Vibe</h3>
+                    
+                    <p>Once you're in the zone, these techniques can help you stay there:</p>
+                    
+                    <ul>
+                        <li>Work in 90-minute sessions with clear breaks</li>
+                        <li>Keep a "parking lot" notepad for distracting thoughts</li>
+                        <li>Use the Pomodoro technique with longer intervals</li>
+                        <li>Have water and healthy snacks within reach</li>
+                    </ul>
+                    
+                    <p>Remember, vibe coding isn't about forcing productivity—it's about creating conditions where deep work happens naturally. What's your vibe coding setup? Share your tips below!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 3 -->
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal3')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=600&q=80" alt="Design" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #fd7e14, #ff6b6b);">Design</span>
+                    <div class="modal-date-views">
+                        <span>Apr 6, 2025</span>
+                        <span>•</span>
+                        <span>375 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">Mastering the Art of Visionary Design</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Joe Smiley" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Joe Smiley</span>
+                        <span class="modal-author-title">Lead Designer at Visionary Labs</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">UX</span>
+                    <span class="tag">Product Vision</span>
+                    <span class="tag">Strategy</span>
+                </div>
+                <div class="modal-text">
+                    <p>Creating a compelling product vision is more than putting words on paper or developing a roadmap—it's crafting an idealized view of the experience users will have with your digital product. This vision serves as your North Star, guiding every design and development decision.</p>
+                    
+                    <p>Through my work with dozens of startups and enterprises, I've developed a framework for creating visions that inspire teams and resonate with users.</p>
+                    
+                    <h3>The Elements of Visionary Design</h3>
+                    
+                    <p>Great product visions share several key characteristics:</p>
+                    
+                    <ul>
+                        <li><strong>User-Centered:</strong> Focused on real user needs and emotions</li>
+                        <li><strong>Future-Oriented:</strong> Anticipates where technology and behaviors are heading</li>
+                        <li><strong>Authentic:</strong> Aligns with your brand's core values</li>
+                        <li><strong>Inspiring:</strong> Motivates the team to build something remarkable</li>
+                        <li><strong>Flexible:</strong> Adaptable as you learn from users</li>
+                    </ul>
+                    
+                    <p>One common mistake is confusing vision with features. Your vision should describe the experience, not the implementation.</p>
+                    
+                    <h3>Crafting Your Vision</h3>
+                    
+                    <p>Follow this process to develop your product vision:</p>
+                    
+                    <ol>
+                        <li><strong>User Research:</strong> Conduct deep interviews to understand pain points and desires</li>
+                        <li><strong>Trend Analysis:</strong> Study technological and behavioral trends in your domain</li>
+                        <li><strong>Vision Workshops:</strong> Bring together cross-functional teams to brainstorm</li>
+                        <li><strong>Prototyping:</strong> Create low-fidelity prototypes to test vision concepts</li>
+                        <li><strong>Refinement:</strong> Iterate based on feedback from stakeholders and users</li>
+                    </ol>
+                    
+                    <p>Remember that your vision will evolve. Revisit it quarterly to ensure it still aligns with user needs and market realities.</p>
+                    
+                    <h3>Communicating the Vision</h3>
+                    
+                    <p>A vision that isn't communicated effectively is worthless. Use these techniques:</p>
+                    
+                    <ul>
+                        <li>Create a short, memorable vision statement</li>
+                        <li>Develop visual artifacts like mood boards or storyboards</li>
+                        <li>Record video walkthroughs of the ideal user journey</li>
+                        <li>Incorporate the vision into onboarding for new team members</li>
+                    </ul>
+                    
+                    <p>The most successful products aren't just collections of features—they're manifestations of a clear, compelling vision. What's your product vision? How do you keep it alive in your organization?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 4 -->
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal4')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=600&q=80" alt="Coding" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #6f42c1, #d63384);">Coding</span>
+                    <div class="modal-date-views">
+                        <span>Mar 12, 2025</span>
+                        <span>•</span>
+                        <span>366 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">How Do I Start When Trying to Find Programming Errors</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Sadi Kaya" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Sadi Kaya</span>
+                        <span class="modal-author-title">Senior Developer at Debug Masters</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">Debugging</span>
+                    <span class="tag">Problem Solving</span>
+                    <span class="tag">Techniques</span>
+                </div>
+                <div class="modal-text">
+                    <p>Let's face it—errors are the soul of programming. No matter how experienced you are, you'll spend a significant portion of your time tracking down bugs. After mentoring dozens of junior developers, I've developed a systematic approach that makes debugging less frustrating and more efficient.</p>
+                    
+                    <p>The key is to approach debugging methodically rather than randomly changing code hoping something works.</p>
+                    
+                    <h3>The Debugging Mindset</h3>
+                    
+                    <p>Before diving into code, adopt these mental frameworks:</p>
+                    
+                    <ul>
+                        <li><strong>Assume You're Wrong:</strong> The computer is usually right—if the code isn't working, you misunderstood something</li>
+                        <li><strong>Embrace the Process:</strong> Debugging is where real learning happens</li>
+                        <li><strong>Think Like a Scientist:</strong> Form hypotheses and test them systematically</li>
+                        <li><strong>Take Breaks:</strong> Fresh eyes spot what tired eyes miss</li>
+                    </ul>
+                    
+                    <p>One of my mentors taught me: "You don't understand code until you've debugged it." This perspective transformed how I approach errors.</p>
+                    
+                    <h3>The Step-by-Step Debugging Process</h3>
+                    
+                    <p>Follow this sequence when facing an error:</p>
+                    
+                    <ol>
+                        <li><strong>Reproduce the Error:</strong> Can you make it happen consistently?</li>
+                        <li><strong>Read the Error Message:</strong> Most contain valuable clues about what went wrong</li>
+                        <li><strong>Check Recent Changes:</strong> What did you modify before the error appeared?</li>
+                        <li><strong>Isolate the Problem:</strong> Comment out code sections to find where it breaks</li>
+                        <li><strong>Inspect State:</strong> Use debuggers or logs to examine variable values</li>
+                        <li><strong>Form a Hypothesis:</strong> Based on evidence, what do you think is wrong?</li>
+                        <li><strong>Test Your Fix:</strong> Make small changes and verify they work</li>
+                    </ol>
+                    
+                    <p>This process prevents the common mistake of making multiple changes at once, which often introduces new bugs.</p>
+                    
+                    <h3>Advanced Debugging Techniques</h3>
+                    
+                    <p>Once you've mastered the basics, try these pro techniques:</p>
+                    
+                    <ul>
+                        <li><strong>Rubber Duck Debugging:</strong> Explain your code line-by-line to an inanimate object</li>
+                        <li><strong>Time Travel Debugging:</strong> Use tools that let you step backward through execution</li>
+                        <li><strong>Binary Search:</strong> Comment out half your code to quickly locate issues</li>
+                        <li><strong>Visualization:</strong> Draw data flows or state diagrams to spot inconsistencies</li>
+                    </ul>
+                    
+                    <p>Remember, every bug you solve makes you a better developer. What's your most memorable debugging story? Share it in the comments!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 5 -->
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal5')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=600&q=80" alt="Web Development" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #17a2b8, #20c997);">Web Development</span>
+                    <div class="modal-date-views">
+                        <span>Mar 29, 2025</span>
+                        <span>•</span>
+                        <span>319 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">Self-host Plausible Analytics</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Plausible Team" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Plausible Team</span>
+                        <span class="modal-author-title">Privacy-focused Analytics</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">Analytics</span>
+                    <span class="tag">Self-hosting</span>
+                    <span class="tag">Privacy</span>
+                </div>
+                <div class="modal-text">
+                    <p>Plausible Analytics is an open-source, privacy-focused alternative to Google Analytics that provides essential website insights without compromising user privacy. While Plausible offers a hosted service, self-hosting gives you complete control over your data and infrastructure.</p>
+                    
+                    <p>In this comprehensive guide, I'll walk you through the entire process of self-hosting Plausible, from server setup to daily maintenance.</p>
+                    
+                    <h3>Why Choose Plausible?</h3>
+                    
+                    <p>Plausible stands out from traditional analytics platforms:</p>
+                    
+                    <ul>
+                        <li><strong>Lightweight:</strong> The script is under 1KB (vs. 45KB for Google Analytics)</li>
+                        <li><strong>Privacy-focused:</strong> No cookies, no personal data collection, compliant with GDPR, CCPA</li>
+                        <li><strong>Simple:</strong> Intuitive dashboard with only the metrics that matter</li>
+                        <li><strong>Open Source:</strong> Fully transparent codebase you can audit</li>
+                    </ul>
+                    
+                    <p>For many projects, especially those in regulated industries or with privacy-conscious audiences, Plausible is the perfect solution.</p>
+                    
+                    <h3>Server Requirements</h3>
+                    
+                    <p>Before installing, ensure your server meets these requirements:</p>
+                    
+                    <ul>
+                        <li>Ubuntu 20.04 or 22.04 (recommended)</li>
+                        <li>Minimum 1 CPU core, 2GB RAM (4GB recommended for production)</li>
+                        <li>Docker and Docker Compose installed</li>
+                        <li>Domain name with DNS configured</li>
+                        <li>SSL certificate (Let's Encrypt recommended)</li>
+                    </ul>
+                    
+                    <h3>Installation Steps</h3>
+                    
+                    <p>Follow these steps to get Plausible running:</p>
+                    
+                    <ol>
+                        <li><strong>Clone the Repository:</strong><br>
+                            <code>git clone https://github.com/plausible/hosting</code></li>
+                        <li><strong>Configure Environment:</strong><br>
+                            Edit the <code>.env</code> file with your domain, admin credentials, and email settings</li>
+                        <li><strong>Start Containers:</strong><br>
+                            <code>docker-compose up -d</code></li>
+                        <li><strong>Setup Nginx:</strong><br>
+                            Configure reverse proxy with SSL (sample config provided in repo)</li>
+                        <li><strong>Initialize Database:</strong><br>
+                            Run <code>docker-compose exec plausible_db psql -U postgres</code> to create the database</li>
+                    </ol>
+                    
+                    <p>The entire process typically takes 15-30 minutes for someone familiar with server administration.</p>
+                    
+                    <h3>Maintenance and Scaling</h3>
+                    
+                    <p>Once running, follow these best practices:</p>
+                    
+                    <ul>
+                        <li>Set up automated backups for the PostgreSQL database</li>
+                        <li>Monitor resource usage and scale as needed</li>
+                        <li>Subscribe to Plausible's release announcements for updates</li>
+                        <li>Consider using a managed database service for production</li>
+                    </ul>
+                    
+                    <p>For high-traffic sites (10M+ pageviews/month), you may need to:</p>
+                    
+                    <ul>
+                        <li>Upgrade to a more powerful server</li>
+                        <li>Configure ClickHouse for analytics storage</li>
+                        <li>Set up read replicas for the database</li>
+                    </ul>
+                    
+                    <p>Self-hosting Plausible gives you complete ownership of your analytics data while respecting your visitors' privacy. Have questions about your specific setup? Ask in the comments!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 6 -->
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal6')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=600&q=80" alt="Design to Code" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #6610f2, #6f42c1);">Design to Code</span>
+                    <div class="modal-date-views">
+                        <span>Mar 3, 2025</span>
+                        <span>•</span>
+                        <span>933 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">Figma Design-to-Code Implementation: Best Practices for App Developers</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="UTUX" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">UTUX</span>
+                        <span class="modal-author-title">Design Systems Expert</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">Figma</span>
+                    <span class="tag">Design Systems</span>
+                    <span class="tag">Frontend</span>
+                </div>
+                <div class="modal-text">
+                    <p>Figma has become the dominant tool for app design, making collaboration between designers and developers smoother than ever. However, the transition from Figma designs to production code remains challenging for many teams. After implementing hundreds of Figma designs across various frameworks, I've compiled the best practices that save time and reduce frustration.</p>
+                    
+                    <p>The key is establishing processes and conventions before the first pixel gets coded.</p>
+                    
+                    <h3>Pre-Development Preparation</h3>
+                    
+                    <p>Before writing any code, ensure the Figma file is developer-ready:</p>
+                    
+                    <ul>
+                        <li><strong>Component Organization:</strong> Verify all reusable elements are proper Figma Components</li>
+                        <li><strong>Naming Conventions:</strong> Check that layers and frames follow consistent naming</li>
+                        <li><strong>Design Tokens:</strong> Extract colors, typography, spacing into a centralized system</li>
+                        <li><strong>Responsive Behavior:</strong> Document how components should adapt to different screens</li>
+                        <li><strong>Asset Export:</strong> Confirm all icons/images are properly sized and formatted</li>
+                    </ul>
+                    
+                    <p>Investing time in this preparation phase typically saves 10-20 hours of development time per project.</p>
+                    
+                    <h3>Implementation Strategies</h3>
+                    
+                    <p>Choose the right approach based on your team and project:</p>
+                    
+                    <ol>
+                        <li><strong>Manual Implementation:</strong> Highest quality but most time-consuming</li>
+                        <li><strong>Figma Plugins:</strong> Tools like Anima or Figma to Code can generate starter code</li>
+                        <li><strong>Design System Sync:</strong> Connect Figma to Storybook for component parity</li>
+                        <li><strong>Hybrid Approach:</strong> Use generated code for simple elements, hand-code complex ones</li>
+                    </ol>
+                    
+                    <p>For most professional teams, I recommend the hybrid approach—it balances speed with quality.</p>
+                    
+                    <h3>Technical Implementation Tips</h3>
+                    
+                    <p>These techniques will improve your implementation quality:</p>
+                    
+                    <ul>
+                        <li><strong>Pixel-Perfect Isn't Always Right:</strong> Adapt designs for real-world constraints</li>
+                        <li><strong>Use Relative Units:</strong> Implement with rem/em rather than px for better responsiveness</li>
+                        <li><strong>Leverage CSS Variables:</strong> Map Figma styles to CSS custom properties</li>
+                        <li><strong>Component Props:</strong> Match Figma component properties to React/Vue props</li>
+                        <li><strong>Auto-Layout Translation:</strong> Convert Figma auto-layout to CSS Flex/Grid</li>
+                    </ul>
+                    
+                    <h3>Collaboration Best Practices</h3>
+                    
+                    <p>Improve designer-developer workflow with these strategies:</p>
+                    
+                    <ul>
+                        <li>Establish a shared vocabulary for design elements</li>
+                        <li>Schedule weekly syncs to review implementation progress</li>
+                        <li>Use Figma comments to flag implementation questions</li>
+                        <li>Create a "Dev Notes" page in Figma for technical details</li>
+                        <li>Document design-to-code decisions for future reference</li>
+                    </ul>
+                    
+                    <p>The most successful teams treat design implementation as a collaborative process rather than a handoff. What's your biggest Figma-to-code challenge? Let's discuss solutions!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 7 -->
+    <div id="modal7" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal7')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=600&q=80" alt="Web Development" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #fd7e14, #ff922b);">Web Development</span>
+                    <div class="modal-date-views">
+                        <span>Apr 15, 2025</span>
+                        <span>•</span>
+                        <span>287 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">Modern JavaScript Patterns You Should Know</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Alex Chen" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Alex Chen</span>
+                        <span class="modal-author-title">JavaScript Architect</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">ES6+</span>
+                    <span class="tag">Patterns</span>
+                </div>
+                <div class="modal-text">
+                    <p>JavaScript has evolved dramatically in recent years, with new syntax features and patterns emerging that make code more expressive, maintainable, and performant. In this article, I'll cover the modern patterns that every professional JavaScript developer should have in their toolkit.</p>
+                    
+                    <p>These patterns represent the collective wisdom of the JavaScript community, distilled through years of real-world application.</p>
+                    
+                    <h3>1. Module Pattern with ES6 Modules</h3>
+                    
+                    <p>The old IIFE (Immediately Invoked Function Expression) pattern has been largely replaced by native ES6 modules:</p>
+                    
+                    <pre><code>// lib/utils.js
+export const formatCurrency = (amount) => {
+    return new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD'
+    }).format(amount);
+};
+
+// app.js
+import { formatCurrency } from './lib/utils.js';
+console.log(formatCurrency(100)); // "$100.00"</code></pre>
+                    
+                    <p>Benefits:</p>
+                    <ul>
+                        <li>Explicit dependencies</li>
+                        <li>Better tooling support</li>
+                        <li>Static analyzability</li>
+                    </ul>
+                    
+                    <h3>2. Nullish Coalescing and Optional Chaining</h3>
+                    
+                    <p>These two operators solve common pain points:</p>
+                    
+                    <pre><code>// Nullish coalescing (??)
+const timeout = settings.timeout ?? 3000; // only falls back if null/undefined
+
+// Optional chaining (?.)
+const userName = user?.profile?.name ?? 'Anonymous';</code></pre>
+                    
+                    <p>They eliminate verbose null checks while being more precise than logical OR (||).</p>
+                    
+                    <h3>3. Functional Array Operations</h3>
+                    
+                    <p>Modern JavaScript provides powerful array methods that replace most loops:</p>
+                    
+                    <pre><code>// Transform
+const prices = products.map(p => p.price);
+
+// Filter
+const expensive = products.filter(p => p.price > 100);
+
+// Reduce
+const total = products.reduce((sum, p) => sum + p.price, 0);
+
+// Find
+const featured = products.find(p => p.featured);
+
+// Some/Every
+const hasStock = products.some(p => p.inStock);
+const allHaveStock = products.every(p => p.inStock);</code></pre>
+                    
+                    <p>These methods are more declarative and often more performant than manual loops.</p>
+                    
+                    <h3>4. Object Property Shorthand</h3>
+                    
+                    <p>Cleaner object creation with less repetition:</p>
+                    
+                    <pre><code>const name = 'Alex';
+const age = 30;
+
+// Old way
+const person = {
+    name: name,
+    age: age
+};
+
+// Modern way
+const person = { name, age };</code></pre>
+                    
+                    <h3>5. Async/Await Pattern</h3>
+                    
+                    <p>The cleanest way to work with promises:</p>
+                    
+                    <pre><code>async function fetchUserData(userId) {
+    try {
+        const response = await fetch(`/api/users/${userId}`);
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Failed to fetch user:', error);
+        throw error;
+    }
+}</code></pre>
+                    
+                    <p>Async/await makes asynchronous code read like synchronous code, reducing callback hell.</p>
+                    
+                    <h3>6. Destructuring Assignment</h3>
+                    
+                    <p>Elegant extraction of values from objects and arrays:</p>
+                    
+                    <pre><code>// Object destructuring
+const { name, age } = person;
+
+// Array destructuring
+const [first, second] = someArray;
+
+// Parameter destructuring
+function greet({ name, age }) {
+    return `Hello ${name}, you're ${age} years old!`;
+}</code></pre>
+                    
+                    <p>These patterns represent just the tip of the iceberg. Modern JavaScript offers many more features that can make your code cleaner and more maintainable. What's your favorite modern JavaScript pattern? Share in the comments!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 8 -->
+    <div id="modal8" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal8')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=600&q=80" alt="DevOps" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #343a40, #495057);">DevOps</span>
+                    <div class="modal-date-views">
+                        <span>Apr 2, 2025</span>
+                        <span>•</span>
+                        <span>412 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">CI/CD Pipelines: From Zero to Hero</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Samira Khan" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Samira Khan</span>
+                        <span class="modal-author-title">DevOps Engineer</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">CI/CD</span>
+                    <span class="tag">Automation</span>
+                    <span class="tag">DevOps</span>
+                </div>
+                <div class="modal-text">
+                    <p>Continuous Integration and Continuous Deployment (CI/CD) have become essential practices for modern development teams, enabling rapid, reliable software delivery. In this guide, I'll walk you through setting up a professional-grade CI/CD pipeline from scratch, whether you're working on a small personal project or an enterprise application.</p>
+                    
+                    <p>A well-configured pipeline can mean the difference between deploying with confidence and deploying with crossed fingers.</p>
+                    
+                    <h3>The CI/CD Pipeline Architecture</h3>
+                    
+                    <p>A complete pipeline typically includes these stages:</p>
+                    
+                    <ol>
+                        <li><strong>Code Commit:</strong> Trigger pipeline on git push</li>
+                        <li><strong>Build:</strong> Compile code and dependencies</li>
+                        <li><strong>Test:</strong> Run unit, integration, and end-to-end tests</li>
+                        <li><strong>Security Scan:</strong> Check for vulnerabilities</li>
+                        <li><strong>Deploy to Staging:</strong> Release to test environment</li>
+                        <li><strong>Manual Approval:</strong> Optional gate for production</li>
+                        <li><strong>Deploy to Production:</strong> Release to users</li>
+                        <li><strong>Post-Deploy Verification:</strong> Health checks and monitoring</li>
+                    </ol>
+                    
+                    <h3>Setting Up with GitHub Actions</h3>
+                    
+                    <p>Here's a complete <code>.github/workflows/pipeline.yml</code> configuration:</p>
+                    
+                    <pre><code>name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+    
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Run tests
+      run: npm test
+      
+    - name: Build
+      run: npm run build
+      
+    - name: Run security scan
+      uses: shiftleft/scan-action@v2
+      
+  deploy-staging:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: npm run deploy -- --env=staging
+      
+  deploy-prod:
+    needs: deploy-staging
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: npm run deploy -- --env=production</code></pre>
+                    
+                    <h3>Advanced Pipeline Features</h3>
+                    
+                    <p>Once you have the basics working, add these professional touches:</p>
+                    
+                    <ul>
+                        <li><strong>Parallel Testing:</strong> Split test suites across multiple runners</li>
+                        <li><strong>Caching:</strong> Cache dependencies between runs</li>
+                        <li><strong>Artifacts:</strong> Store build outputs for later jobs</li>
+                        <li><strong>Environment Secrets:</strong> Secure handling of credentials</li>
+                        <li><strong>Rollback Plan:</strong> Automated reverts on failure</li>
+                    </ul>
+                    
+                    <h3>Monitoring and Metrics</h3>
+                    
+                    <p>Track these key pipeline metrics:</p>
+                    
+                    <ul>
+                        <li><strong>Build Success Rate:</strong> Percentage of successful builds</li>
+                        <li><strong>Test Coverage:</strong> Percentage of code covered by tests</li>
+                        <li><strong>Deployment Frequency:</strong> How often you deploy</li>
+                        <li><strong>Lead Time:</strong> Time from commit to production</li>
+                        <li><strong>Mean Time to Recovery (MTTR):</strong> How quickly you fix failures</li>
+                    </ul>
+                    
+                    <p>A mature CI/CD pipeline becomes your team's safety net, enabling rapid iteration while maintaining stability. What CI/CD challenges have you faced? Let's troubleshoot together in the comments!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 9 -->
+    <div id="modal9" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal9')">&times;</button>
+            <img src="" alt="Frontend" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #20c997, #12b886);">Frontend</span>
+                    <div class="modal-date-views">
+                        <span>Mar 18, 2025</span>
+                        <span>•</span>
+                        <span>521 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">React 19: What's Coming and Why It Matters</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/men/88.jpg" alt="Diego Martinez" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Diego Martinez</span>
+                        <span class="modal-author-title">React Core Contributor</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">React</span>
+                    <span class="tag">Frontend</span>
+                    <span class="tag">Framework</span>
+                </div>
+                <div class="modal-text">
+                    <p>The React team has been working on groundbreaking changes for the next major version, and I've had the privilege of participating in some of these discussions. React 19 isn't just an incremental update—it represents a fundamental shift in how we'll build React applications. Here's an in-depth look at the upcoming features and their implications.</p>
+                    
+                    <p>Note: These features are based on the current RFCs (Request for Comments) and may change before final release.</p>
+                    
+                    <h3>1. Server Components (Stable)</h3>
+                    
+                    <p>Server Components will move from experimental to stable, enabling:</p>
+                    
+                    <ul>
+                        <li>Zero-bundle-size components that render on the server</li>
+                        <li>Direct database access from components (secure with server boundaries)</li>
+                        <li>Automatic code splitting at the component level</li>
+                    </ul>
+                    
+                    <pre><code>// This component only runs on the server
+// and doesn't ship JavaScript to the client
+async function UserProfile({ userId }) {
+    const user = await db.users.get(userId);
+    return &lt;Profile user={user} />;
+}</code></pre>
+                    
+                    <h3>2. Asset Loading</h3>
+                    
+                    <p>A new asset system will handle fonts, images, and other resources:</p>
+                    
+                    <ul>
+                        <li>Automatic image optimization (size/format based on device)</li>
+                        <li>Font preloading with no layout shift</li>
+                        <li>Built-in loading states for assets</li>
+                    </ul>
+                    
+                    <pre><code>// In your component
+&lt;Image
+    src="/profile.jpg"
+    alt="Profile"
+    width={500}
+    height={500}
+    loading="lazy"
+/></code></pre>
+                    
+                    <h3>3. Actions API</h3>
+                    
+                    <p>A new way to handle data mutations:</p>
+                    
+                    <pre><code>// Define an action
+async function updateUser(formData) {
+    'use server';
+    await db.users.update(formData.get('userId'), {
+        name: formData.get('name')
+    });
+}
+
+// Use it in your component
+&lt;form action={updateUser}>
+    &lt;input name="userId" defaultValue={user.id} />
+    &lt;input name="name" defaultValue={user.name} />
+    &lt;button type="submit">Save&lt;/button>
+&lt;/form></code></pre>
+                    
+                    <p>Benefits include automatic pending states, optimistic updates, and error handling.</p>
+                    
+                    <h3>4. Document Metadata</h3>
+                    
+                    <p>Manage &lt;head> tags directly from components:</p>
+                    
+                    <pre><code>function BlogPost({ post }) {
+    return (
+        &lt;>
+            &lt;title>{post.title}&lt;/title>
+            &lt;meta name="description" content={post.excerpt} />
+            &lt;article>
+                &lt;h1>{post.title}&lt;/h1>
+                &lt;div>{post.content}&lt;/div>
+            &lt;/article>
+        &lt;/>
+    );
+}</code></pre>
+                    
+                    <h3>5. Compiler Optimizations</h3>
+                    
+                    <p>The React compiler (previously known as React Forget) will:</p>
+                    
+                    <ul>
+                        <li>Automatically memoize components and values</li>
+                        <li>Optimize re-renders without manual useMemo/useCallback</li>
+                        <li>Reduce bundle size through dead code elimination</li>
+                    </ul>
+                    
+                    <h3>Migration Strategy</h3>
+                    
+                    <p>To prepare for React 19:</p>
+                    
+                    <ol>
+                        <li>Start experimenting with Server Components in Next.js</li>
+                        <li>Adopt the new hooks (use, useOptimistic) as they become available</li>
+                        <li>Audit your codebase for patterns that won't work with the compiler</li>
+                        <li>Follow the official React blog for updates</li>
+                    </ol>
+                    
+                    <p>React 19 represents the framework's continued evolution toward a more unified, efficient developer experience. Which upcoming feature are you most excited about? Let's discuss in the comments!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal10" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal10')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1592609931095-54a2168ae893?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="AI" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #6a11cb, #2575fc);">AI</span>
+                    <div class="modal-date-views">
+                        <span>May 5, 2025</span>
+                        <span>•</span>
+                        <span>842 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">Building AI-Powered Apps with TensorFlow.js</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Lena Chen" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Lena Chen</span>
+                        <span class="modal-author-title">ML Engineer at AI Labs</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">Machine Learning</span>
+                    <span class="tag">TensorFlow</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+                <div class="modal-text">
+                    <p>TensorFlow.js brings the power of machine learning directly to JavaScript developers, enabling you to build and deploy ML models in the browser and Node.js without complex backend infrastructure. In this guide, I'll walk you through creating your first AI-powered web application.</p>
+                    
+                    <h3>Why TensorFlow.js?</h3>
+                    
+                    <p>Key advantages of using TensorFlow.js:</p>
+                    <ul>
+                        <li><strong>Privacy:</strong> Process data client-side without sending to servers</li>
+                        <li><strong>Latency:</strong> Real-time predictions without network calls</li>
+                        <li><strong>Cost:</strong> No need for expensive cloud ML services</li>
+                        <li><strong>Accessibility:</strong> Works on any device with a browser</li>
+                    </ul>
+                    
+                    <h3>Getting Started</h3>
+                    
+                    <p>Basic setup for a TensorFlow.js project:</p>
+                    <pre><code>// Install via npm
+    npm install @tensorflow/tfjs
+    
+    // Or load directly in browser
+    &lt;script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.18.0/dist/tf.min.js">&lt;/script></code></pre>
+                    
+                    <h3>Building an Image Classifier</h3>
+                    
+                    <p>Example of loading a pre-trained model:</p>
+                    <pre><code>async function loadModel() {
+        const model = await tf.loadLayersModel('model.json');
+        return model;
+    }
+    
+    async function predict(imageElement) {
+        const model = await loadModel();
+        const tensor = tf.browser.fromPixels(imageElement)
+            .resizeNearestNeighbor([224, 224])
+            .toFloat()
+            .expandDims();
+        
+        const predictions = await model.predict(tensor).data();
+        return predictions;
+    }</code></pre>
+                    
+                    <p>This opens up possibilities for building privacy-preserving AI features directly in your web apps.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal11" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal11')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Web3" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #f83600, #f9d423);">Web3</span>
+                    <div class="modal-date-views">
+                        <span>May 12, 2025</span>
+                        <span>•</span>
+                        <span>721 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">Smart Contract Development for Beginners</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Raj Patel" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Raj Patel</span>
+                        <span class="modal-author-title">Blockchain Developer</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">Solidity</span>
+                    <span class="tag">Ethereum</span>
+                    <span class="tag">Blockchain</span>
+                </div>
+                <div class="modal-text">
+                    <p>Entering the world of Web3 development can be daunting, but smart contracts are the foundation of decentralized applications. This guide will walk you through creating your first smart contract from scratch.</p>
+                    
+                    <h3>Understanding Smart Contracts</h3>
+                    <p>Smart contracts are:</p>
+                    <ul>
+                        <li>Self-executing contracts with terms written in code</li>
+                        <li>Stored on a blockchain for immutability</li>
+                        <li>Automatically enforced without intermediaries</li>
+                    </ul>
+                    
+                    <h3>Setting Up Your Environment</h3>
+                    <p>Tools you'll need:</p>
+                    <ol>
+                        <li>Node.js and npm</li>
+                        <li>Hardhat or Truffle development framework</li>
+                        <li>MetaMask wallet</li>
+                        <li>Test ETH (from a faucet)</li>
+                    </ol>
+                    
+                    <h3>Your First Smart Contract</h3>
+                    <p>Simple storage contract in Solidity:</p>
+                    <pre><code>// SPDX-License-Identifier: MIT
+    pragma solidity ^0.8.0;
+    
+    contract SimpleStorage {
+        uint storedData;
+        
+        function set(uint x) public {
+            storedData = x;
+        }
+        
+        function get() public view returns (uint) {
+            return storedData;
+        }
+    }</code></pre>
+                    
+                    <p>This contract allows storing and retrieving a single unsigned integer on the blockchain.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal12" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal12')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Accessibility" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #ff6b6b, #ff8e8e);">Accessibility</span>
+                    <div class="modal-date-views">
+                        <span>May 8, 2025</span>
+                        <span>•</span>
+                        <span>615 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">The Complete Guide to Web Accessibility</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Emma Johnson" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Emma Johnson</span>
+                        <span class="modal-author-title">Accessibility Specialist</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">a11y</span>
+                    <span class="tag">WCAG</span>
+                    <span class="tag">Inclusion</span>
+                </div>
+                <div class="modal-text">
+                    <p>Web accessibility ensures that people with disabilities can perceive, understand, navigate, and interact with websites. This guide covers everything from semantic HTML to advanced ARIA patterns.</p>
+                    
+                    <h3>Core Principles (POUR)</h3>
+                    <ul>
+                        <li><strong>Perceivable:</strong> Available to the senses</li>
+                        <li><strong>Operable:</strong> Navigable via various input methods</li>
+                        <li><strong>Understandable:</strong> Clear and predictable</li>
+                        <li><strong>Robust:</strong> Works across browsers and devices</li>
+                    </ul>
+                    
+                    <h3>Essential Techniques</h3>
+                    <pre><code>&lt;!-- Good semantic HTML --&gt;
+    &lt;nav aria-label="Main navigation"&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href="/" aria-current="page"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/about"&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+    
+    &lt;!-- Image with proper alt text --&gt;
+    &lt;img src="chart.png" alt="Sales growth chart: 45% increase Q1 2025"&gt;</code></pre>
+                    
+                    <h3>Testing Tools</h3>
+                    <ol>
+                        <li>Screen readers (NVDA, VoiceOver)</li>
+                        <li>Color contrast checkers</li>
+                        <li>Keyboard navigation testing</li>
+                        <li>axe DevTools browser extension</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal13" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal13')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="TypeScript" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #3178c6, #5a9ce6);">TypeScript</span>
+                    <div class="modal-date-views">
+                        <span>May 15, 2025</span>
+                        <span>•</span>
+                        <span>728 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">Mastering TypeScript Generics</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/men/42.jpg" alt="Andrei Ionescu" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Andrei Ionescu</span>
+                        <span class="modal-author-title">TypeScript Expert</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">Generics</span>
+                    <span class="tag">Advanced Types</span>
+                    <span class="tag">Type Safety</span>
+                </div>
+                <div class="modal-text">
+                    <p>Generics enable creating reusable components that work with multiple types while maintaining type safety. Let's explore advanced patterns.</p>
+                    
+                    <h3>Basic Generic Function</h3>
+                    <pre><code>function identity&lt;T&gt;(arg: T): T {
+        return arg;
+    }
+    
+    let output = identity&lt;string&gt;("hello");</code></pre>
+                    
+                    <h3>Generic Constraints</h3>
+                    <pre><code>interface Lengthwise {
+        length: number;
+    }
+    
+    function loggingIdentity&lt;T extends Lengthwise&gt;(arg: T): T {
+        console.log(arg.length);
+        return arg;
+    }</code></pre>
+                    
+                    <h3>Utility Types with Generics</h3>
+                    <pre><code>type Partial&lt;T&gt; = {
+        [P in keyof T]?: T[P];
+    };
+    
+    type Readonly&lt;T&gt; = {
+        readonly [P in keyof T]: T[P];
+    };</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal14" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal14')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Go" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #00add8, #5fd7ff);">Go</span>
+                    <div class="modal-date-views">
+                        <span>May 22, 2025</span>
+                        <span>•</span>
+                        <span>893 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">Building Microservices with Go</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Sophie Zhang" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Sophie Zhang</span>
+                        <span class="modal-author-title">Go Developer</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">Microservices</span>
+                    <span class="tag">gRPC</span>
+                    <span class="tag">Kubernetes</span>
+                </div>
+                <div class="modal-text">
+                    <p>Go's simplicity, performance, and excellent concurrency support make it perfect for microservices architecture.</p>
+                    
+                    <h3>Basic HTTP Service</h3>
+                    <pre><code>package main
+    
+    import (
+        "net/http"
+    )
+    
+    func handler(w http.ResponseWriter, r *http.Request) {
+        w.Write([]byte("Hello from Go microservice!"))
+    }
+    
+    func main() {
+        http.HandleFunc("/", handler)
+        http.ListenAndServe(":8080", nil)
+    }</code></pre>
+                    
+                    <h3>gRPC Service Definition</h3>
+                    <pre><code>syntax = "proto3";
+    
+    service ProductService {
+        rpc GetProduct (ProductRequest) returns (ProductResponse);
+    }
+    
+    message ProductRequest {
+        string id = 1;
+    }
+    
+    message ProductResponse {
+        string id = 1;
+        string name = 2;
+        float price = 3;
+    }</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal15" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal15')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="CSS" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #2965f1, #2a9df4);">CSS</span>
+                    <div class="modal-date-views">
+                        <span>May 29, 2025</span>
+                        <span>•</span>
+                        <span>1.2k views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">CSS Container Queries Revolution</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/men/28.jpg" alt="Carlos Mendoza" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Carlos Mendoza</span>
+                        <span class="modal-author-title">CSS Specialist</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">Responsive</span>
+                    <span class="tag">Layout</span>
+                    <span class="tag">Modern CSS</span>
+                </div>
+                <div class="modal-text">
+                    <p>Container queries finally allow components to adapt to their container's size rather than just the viewport, solving a long-standing CSS limitation.</p>
+    
+                    <h3>Basic Implementation</h3>
+                    <pre><code>/* Define containment context */
+    .component-container {
+      container-type: inline-size;
+    }
+    
+    /* Style based on container width */
+    @container (min-width: 400px) {
+      .card {
+        grid-template-columns: 1fr 2fr;
+      }
+    }</code></pre>
+    
+                    <h3>Real World Example</h3>
+                    <pre><code>.product-card {
+      container: card / inline-size;
+    }
+    
+    @container card (width &lt; 300px) {
+      .product-image {
+        width: 100%;
+        height: auto;
+      }
+      
+      .product-details {
+        display: none;
+      }
+    }</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal16" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal16')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="PostgreSQL" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #336791, #4e82b8);">Database</span>
+                    <div class="modal-date-views">
+                        <span>Jun 5, 2025</span>
+                        <span>•</span>
+                        <span>957 views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">PostgreSQL Performance Tuning</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/women/38.jpg" alt="Natalie Wong" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Natalie Wong</span>
+                        <span class="modal-author-title">Database Architect</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">SQL</span>
+                    <span class="tag">Optimization</span>
+                    <span class="tag">Indexing</span>
+                </div>
+                <div class="modal-text">
+                    <p>PostgreSQL offers incredible performance when properly tuned. Here are professional techniques used in high-traffic production environments.</p>
+    
+                    <h3>Key Configuration Parameters</h3>
+                    <pre><code># postgresql.conf
+    shared_buffers = 4GB                  # 25% of total RAM
+    effective_cache_size = 12GB           # 75% of total RAM
+    work_mem = 64MB                       # For complex sorts
+    maintenance_work_mem = 1GB            # For index creation
+    random_page_cost = 1.1                # For SSD storage</code></pre>
+    
+                    <h3>Query Analysis</h3>
+                    <pre><code>EXPLAIN ANALYZE 
+    SELECT * FROM users 
+    WHERE email = 'user@example.com';</code></pre>
+    
+                    <h3>Partial Index Example</h3>
+                    <pre><code>CREATE INDEX idx_orders_active 
+    ON orders (customer_id) 
+    WHERE status = 'active';</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal17" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal17')">&times;</button>
+            <img src="https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="WebAssembly" class="modal-image">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <span class="modal-category" style="background: linear-gradient(to right, #654ff0, #8e6ffd);">WASM</span>
+                    <div class="modal-date-views">
+                        <span>Jun 12, 2025</span>
+                        <span>•</span>
+                        <span>1.1k views</span>
+                    </div>
+                </div>
+                <h2 class="modal-title">The Future of WebAssembly</h2>
+                <div class="modal-author">
+                    <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Dmitri Volkov" class="modal-author-avatar">
+                    <div class="modal-author-info">
+                        <span class="modal-author-name">Dmitri Volkov</span>
+                        <span class="modal-author-title">WASM Engineer</span>
+                    </div>
+                </div>
+                <div class="tag-container">
+                    <span class="tag">Performance</span>
+                    <span class="tag">Rust</span>
+                    <span class="tag">Compilation</span>
+                </div>
+                <div class="modal-text">
+                    <p>WebAssembly enables near-native performance in the browser by compiling languages like Rust, C++, and Go to a portable binary format.</p>
+    
+                    <h3>Rust to WASM Example</h3>
+                    <pre><code>// src/lib.rs
+    #[wasm_bindgen]
+    pub fn add(a: i32, b: i32) -> i32 {
+        a + b
+    }
+    
+    // Build with
+    // wasm-pack build --target web</code></pre>
+    
+                    <h3>JavaScript Integration</h3>
+                    <pre><code>import init, { add } from './pkg/wasm_project.js';
+    
+    async function run() {
+        await init();
+        console.log(add(2, 3)); // 5
+    }</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<div id="modal18" class="modal">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeModal('modal18')">&times;</button>
+        <img src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Mobile Design" class="modal-image">
+        <div class="modal-body">
+            <div class="modal-header">
+                <span class="modal-category" style="background: linear-gradient(to right, #ff6b6b, #ff8e8e);">Design</span>
+                <div class="modal-date-views">
+                    <span>Jun 19, 2025</span>
+                    <span>•</span>
+                    <span>876 views</span>
+                </div>
+            </div>
+            <h2 class="modal-title">Mobile First Design in 2025</h2>
+            <div class="modal-author">
+                <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Lisa Park" class="modal-author-avatar">
+                <div class="modal-author-info">
+                    <span class="modal-author-name">Lisa Park</span>
+                    <span class="modal-author-title">UX Designer</span>
+                </div>
+            </div>
+            <div class="tag-container">
+                <span class="tag">Mobile</span>
+                <span class="tag">UX</span>
+                <span class="tag">Responsive</span>
+            </div>
+            <div class="modal-text">
+                <p>Mobile-first design is now standard practice, with these key principles for 2025:</p>
+
+                <h3>Core Principles</h3>
+                <ul>
+                    <li>Prioritize content over chrome</li>
+                    <li>Design for thumb zones</li>
+                    <li>Optimize for intermittent connectivity</li>
+                    <li>Reduce cognitive load</li>
+                </ul>
+
+                <h3>CSS Mobile-First Example</h3>
+                <pre><code>/* Base styles (mobile) */
+.component {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .component {
+    padding: 1.5rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .component {
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+}</code></pre>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal19" class="modal">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeModal('modal19')">&times;</button>
+        <img src="https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="SaaS" class="modal-image">
+        <div class="modal-body">
+            <div class="modal-header">
+                <span class="modal-category" style="background: linear-gradient(to right, #6a11cb, #2575fc);">Business</span>
+                <div class="modal-date-views">
+                    <span>Jun 26, 2025</span>
+                    <span>•</span>
+                    <span>1.5k views</span>
+                </div>
+            </div>
+            <h2 class="modal-title">Building a SaaS from Scratch</h2>
+            <div class="modal-author">
+                <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="Jason Miller" class="modal-author-avatar">
+                <div class="modal-author-info">
+                    <span class="modal-author-name">Jason Miller</span>
+                    <span class="modal-author-title">SaaS Founder</span>
+                </div>
+            </div>
+            <div class="tag-container">
+                <span class="tag">Startup</span>
+                <span class="tag">Architecture</span>
+                <span class="tag">Growth</span>
+            </div>
+            <div class="modal-text">
+                <p>Building a successful SaaS requires careful planning across technical and business dimensions.</p>
+
+                <h3>Technical Architecture</h3>
+                <ul>
+                    <li>Multi-tenant database design</li>
+                    <li>Isolated customer data</li>
+                    <li>Scalable billing system</li>
+                    <li>Zero-downtime deployments</li>
+                </ul>
+
+                <h3>Example Tech Stack</h3>
+                <pre><code>Frontend: React/Next.js
+Backend: Node.js/NestJS
+Database: PostgreSQL
+Auth: Clerk/Supabase
+Payments: Stripe
+Hosting: AWS/GCP</code></pre>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal20" class="modal">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeModal('modal20')">&times;</button>
+        <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Quantum" class="modal-image">
+        <div class="modal-body">
+            <div class="modal-header">
+                <span class="modal-category" style="background: linear-gradient(to right, #0f2027, #203a43);">Quantum</span>
+                <div class="modal-date-views">
+                    <span>Jul 3, 2025</span>
+                    <span>•</span>
+                    <span>1.3k views</span>
+                </div>
+            </div>
+            <h2 class="modal-title">Quantum Computing for Developers</h2>
+            <div class="modal-author">
+                <img src="https://randomuser.me/api/portraits/women/60.jpg" alt="Dr. Priya Rao" class="modal-author-avatar">
+                <div class="modal-author-info">
+                    <span class="modal-author-name">Dr. Priya Rao</span>
+                    <span class="modal-author-title">Quantum Researcher</span>
+                </div>
+            </div>
+            <div class="tag-container">
+                <span class="tag">Q#</span>
+                <span class="tag">Algorithms</span>
+                <span class="tag">Future Tech</span>
+            </div>
+            <div class="modal-text">
+                <p>Quantum computing leverages quantum mechanics to solve problems intractable for classical computers.</p>
+
+                <h3>Basic Q# Example</h3>
+                <pre><code>operation HelloQ() : Unit {
+    Message("Hello quantum world!");
+    let qubit = Qubit();
+    H(qubit); // Apply Hadamard gate
+    let result = M(qubit); // Measure
+    Message($"Result: {result}");
+    Reset(qubit);
+}</code></pre>
+
+                <h3>Quantum Principles</h3>
+                <ul>
+                    <li>Superposition (0 and 1 simultaneously)</li>
+                    <li>Entanglement (linked qubit states)</li>
+                    <li>Interference (wave behavior)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = 'block';
+        document.body.style.overflow = 'hidden'; // Sayfa kaydırmayı engelle
+    }
+    
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = 'none';
+        document.body.style.overflow = 'auto'; // Sayfa kaydırmayı geri aç
+    }
+    
+    // ESC tuşuna basıldığında modal'ı kapat
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            });
+        }
+    });
+    
+    // Modal dışına tıklandığında kapat
+    document.querySelectorAll('.modal').forEach(modal => {
+        modal.addEventListener('click', function(e) {
+            if (e.target === this) {
+                this.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+    });
+    </script>
+<div class="contribute-card">
+    <div class="contribute-header">
+        <svg class="contribute-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+        <h3 class="contribute-title">Want to Write for Our Blog?</h3>
+    </div>
+    <div class="contribute-content">
+        <p class="invitation-text">We're looking for passionate developers to share their knowledge with our community. Your expertise could help thousands of readers improve their skills.</p>
+        
+        <div class="topics-section">
+            <p class="section-title">We publish articles about:</p>
+                <li>
+                    UI/UX Design Principles
+                </li>
+                <li> 
+                    CSS & Tailwind Techniques
+                </li>
+                <li> 
+                    JavaScript Development
+                </li>
+        </div>
+        <div class="contact-section">
+            <div>
+                <li class="contact-text">Send your article pitch or draft to:</li>
+                <a href="mailto:development33445566@gmail.com" class="email-link">development33445566@gmail.com</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.contribute-card {
+    background: #000;
+    border-radius: 12px;
+    padding: 25px;
+    max-width: 650px;
+    margin: 0 auto;
+    border: 1px solid #333;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.contribute-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.contribute-icon {
+    width: 24px;
+    height: 24px;
+    color: #6d28d9;
+}
+
+.contribute-title {
+    margin: 0;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.contribute-content {
+    color: #e5e7eb;
+}
+
+.invitation-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #d1d5db;
+}
+
+.section-title {
+    font-size: 0.95rem;
+    color: #9ca3af;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tech-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+.tech-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 8px 0;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #222;
+}
+
+.tech-icon {
+    width: 18px;
+    height: 18px;
+    color: #6d28d9;
+    flex-shrink: 0;
+}
+
+.contact-section {
+    display: flex;
+    gap: 15px;
+    background: #111;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.contact-icon {
+    width: 20px;
+    height: 20px;
+    color: #6d28d9;
+    margin-top: 2px;
+}
+
+.contact-text {
+    margin: 0 0 5px 0;
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+.email-link {
+    color: #8b5cf6;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+.email-link:hover {
+    color: #7c3aed;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .contribute-card {
+        padding: 20px;
+    }
+    
+    .contribute-title {
+        font-size: 1.3rem;
+    }
+}
+</style>
+  <style>
+    .button-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-left: 115px;
+    }
+
+   .button-container {
+       position: relative;
+       width: 330px; /* Buton genişliği */
+       height: 400px; /* Buton yüksekliği */
+       background-color: #333;
+       border-radius: 8px;
+       overflow: hidden;
+       transition: background-color 0.3s;
+       text-decoration: none;
+       display: flex;
+       flex-direction: column;
+   }
+
+    .button-container:hover {
+        background-color: #444;
+    }
+
+    .button-container video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .publisher-info {
+        display: flex;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 5px;
+        width: 100%;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .publisher-img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+
+    .publisher-text {
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .logo-container {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 30px;
+        color: white;
+        transition: transform 0.5s ease;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-container:hover {
+        transform: scale(1.1);
+    }
+
+    .logo-text {
+        display: none;
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    .logo-container:hover .logo-text {
+        display: inline-block;
+        opacity: 1;
+    }
+</style>
+</head>
+<body>
+    <div class="button-wrapper">
+      
+    </div>
+    <script>
+        function playVideo(element) {
+            let video = element.querySelector("video");
+            video.play();
+        }
+
+        function pauseVideo(element) {
+            let video = element.querySelector("video");
+            video.pause();
+            video.currentTime = 0;
+        }
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+  <style>
+  .footer-container {
+    color: white;
+    margin-left: 80px;
+    padding: 20px;
+    width: 90%; /* Genişlik %95 */
+    z-index: 10000;
+    position: sticky;
+    background-color: #111;
+    height: auto; /* Yükseklik otomatik */
+    box-sizing: border-box; /* Padding'i genişliğe dahil et */
+  }
+
+  .footer-content {
+    display: inline-block;
+    width: 60%; /* Yazıların genişliği */
+    vertical-align: top;
+  }
+
+  .footer-content h1 {
+    font-size: 20px; /* Başlık boyutu küçültüldü */
+    margin-bottom: 10px;
+  }
+
+  .footer-content p {
+    font-size: 12px; /* Yazı boyutu küçültüldü */
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+
+  .footer-links {
+    display: inline-block;
+    width: 20%; /* Bağlantıların genişliği */
+    vertical-align: top;
+    margin-left: 20px; /* Yazılar ile bağlantılar arası boşluk */
+  }
+
+  .footer-links h1 {
+    font-size: 20px;
+    color: #d5d5d5;
+    margin-bottom: 10px;
+  }
+
+  .footer-links a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 8px;
+    transition: font-size 0.3s ease;
+  }
+
+  .footer-links a:hover {
+    font-size: 16px;
+    text-decoration: underline;
+  }
+
+  .footer-image {
+    display: inline-block;
+    width: 15%; /* Resim genişliği */
+    text-align: right;
+  }
+
+  .footer-image img {
+    width: 120px;
+    border-radius: 8px;
+  }
+
+  .footer-copyright {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    color: #ddd;
+  }
+</style>
+</div>
+<hr style="width: 100%;">
+<div class="footer-container">
+  <!-- İçerik -->
+  <div class="footer-content">
+    <h1>SnipNest <span style="color: #d5d5d5;">&nbspFree Coding Sites</span></h1>
+    <p>Hello! Welcome to SnipNest!</p>
+    <p>We offer a wide range of free coding resources and tutorials that you can use to learn programming at your own pace. Whether you're a beginner or an experienced developer, our platform supports multiple programming languages, including Python, JavaScript, HTML/CSS, and more. All our resources are accessible on your favorite devices, so you can learn on your laptop, smartphone, or tablet anytime, anywhere.</p>
+    <p>Explore our interactive coding challenges, project-based tutorials, and community forums to enhance your skills. We also provide popular resources like web development templates, game development guides, and API documentation to help you build amazing projects. No matter your skill level, SnipNest has something for everyone!</p>
+  </div>
+
+  <!-- Bağlantılar -->
+  <div class="footer-links">
+    <h1>Information</h1>
+    <a href="aboutme2.html">About Me</a>
+    <a href="Terms Of Use2.html">Terms of Use</a>
+    <a href="Privacy Policy2.html">Privacy Policy</a>
+          <a href="comments2.html">Comments and Suggestions</a>
+          <h1>Account</h1>
+          <a href="login.html">Log-Out</a>
+  </div>
+  <!-- Telif Hakkı -->
+  <div class="footer-copyright">
+    <p style="font-size: 12px;">&copy; <strong>[SnipNest]</strong> - All Rights Reserved.</p>
+  </div>
+</body>
+</html>

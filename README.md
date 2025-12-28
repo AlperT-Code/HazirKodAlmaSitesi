@@ -20,9 +20,9 @@ open index.html</code></pre>
 <h2>🖼️ Screenshots / Demo</h2>
 <p>Here are some screenshots of the project:</p>
 <div align="center">
-  <img src="Thief.io/img/img1.png" alt="İmg-1" width="300" style="margin:10px;">
-  <img src="Thief.io/img/img2.png" alt="İmg-2" width="300" style="margin:10px;">
-  <img src="Thief.io/img/img3.png" alt="İmg-3" width="300" style="margin:10px;">
+  <img src="HazırKodAlmaSitesi/img/img1.png" alt="İmg-1" width="300" style="margin:10px;">
+  <img src="HazırKodAlmaSitesi/img/img2.png" alt="İmg-2" width="300" style="margin:10px;">
+  <img src="HazırKodAlmaSitesi/img/img3.png" alt="İmg-3" width="300" style="margin:10px;">
 </div>
 
 <h2>🚀 Usage</h2>
